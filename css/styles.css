@@ -1,0 +1,51 @@
+body {
+    margin: 0 auto;
+    background-color: lightgreen;
+}
+
+.container {
+    height: 800px;
+    width: 800px;
+    background-color: lightsalmon;
+    margin: auto;
+    margin-top: 12px;
+    border-radius: 15px;
+    display: flex;
+
+	border: 10px solid rgb(100, 100, 100); 
+	border: 10px solid rgba(0, 0, 0, 0.3); 
+	-moz-background-clip: padding; 
+	-webkit-background-clip: padding; 
+	background-clip: padding-box; 
+}
+
+.one {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background: lightblue;
+    background-image:radial-gradient(red 25%, transparent 0), radial-gradient(yellow 20%, transparent 0);
+    background-size: 40px 40px;
+    background-position: 0 0, 20px 20px;
+    margin: 10px;
+    
+}
+
+.two {
+    height: 200px;
+    width:200px;
+    margin: 10px;
+    background-image: repeating-linear-gradient(45deg, #000, #fff 30px, red 30px, #dbdbdb 60px);
+    }
+
+.three {
+    width: 200px;
+    height: 200px;
+    background: silver;
+    margin: 10px;
+    transition: transform 2s;
+}
+
+.three:hover {
+    transform: rotate(90deg);
+  }
